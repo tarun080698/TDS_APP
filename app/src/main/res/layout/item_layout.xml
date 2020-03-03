@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#F0DB88"
+    android:layout_margin="8dp"
+    android:elevation="10dp"
+    android:outlineSpotShadowColor="#25628A"
+    android:orientation="vertical"
+    app:cardElevation="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="7"
+                android:background="@drawable/btndesign"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#3D5469"
+                android:textStyle="bold" />
+
+
+<!--                            <Button-->
+<!--                                android:id="@+id/edit_item"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="35dp"-->
+<!--                                android:layout_margin="5dp"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:background="@drawable/ic_edit_black_48dp"-->
+<!--                                android:backgroundTint="#123456" />-->
+
+<!--                            <Button-->
+<!--                                android:id="@+id/done_item"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="35dp"-->
+<!--                                android:layout_margin="5dp"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:background="@drawable/ic_done_black_48dp"-->
+<!--                                android:backgroundTint="#123456" />-->
+
+<!--                            <Button-->
+<!--                                android:id="@+id/delete_item"-->
+<!--                                android:layout_width="0dp"-->
+<!--                                android:layout_height="35dp"-->
+<!--                                android:layout_margin="5dp"-->
+<!--                                android:layout_weight="1"-->
+<!--                                android:background="@drawable/ic_delete_black_48dp"-->
+<!--                                android:backgroundTint="#123456" />-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/name_dis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#3D5469"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc_dis"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#252B38"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

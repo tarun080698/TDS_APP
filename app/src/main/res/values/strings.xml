@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TDS</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_up_small">sign up...</string>
+    <string name="or">OR</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="tds_app">TDS APP</string>
+    <string name="create_new_account_here">Create new account here</string>
+    <string name="login_to_proceed">Login to proceed...</string>
+    <string name="title_activity_hhh">hhh</string>
+    <string name="add_data">Add Data</string>
+</resources>

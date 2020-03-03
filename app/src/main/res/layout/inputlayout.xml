@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/toolbardesign"
+        android:padding="10dp"
+        android:text="@string/add_data"
+        android:textAllCaps="false"
+        android:textColor="#C1222222"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="enter your name"
+            android:id="@+id/add_name"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/add_desc"
+            android:autoSizeMaxTextSize="@dimen/fab_margin"
+            android:hint="write the description..."
+            android:inputType="text"
+            android:maxLines="5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/cancel_data"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#2B377E"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/save_data"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Save"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#2B377E"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</LinearLayout>
